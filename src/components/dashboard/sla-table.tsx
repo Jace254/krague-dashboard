@@ -21,7 +21,7 @@ import { CardHeader, CardShell, CardTitle, Icon } from "./card-shell"
 
 const PRIORITY_ICON: Record<Priority, string> = { High: "signal-full", Medium: "signal-medium", Low: "signal-low" }
 const STATUS_ICON: Record<Status, string> = { "In Review": "status-review", Delivered: "status-delivered", "In Progress": "status-progress" }
-const AVATAR: Record<Ticket["assignee"], string> = { "John Doe": "avatar-john", "Sarah Lee": "avatar-sarah", "Michael Wong": "avatar-michael" }
+const AVATAR: Record<Ticket["assignee"], string> = { "John Doe": "avatar-john", "Sarah Lee": "avatar-sarah", "Michael Kigumi": "avatar-michael" }
 const PRIORITY_RANK: Record<Priority, number> = { High: 3, Medium: 2, Low: 1 }
 
 type SortKey = "id" | "subject" | "priority" | "assignee" | "status" | "created" | "slaHours"
