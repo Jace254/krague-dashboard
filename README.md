@@ -1,8 +1,5 @@
 # Krague — Support Dashboard
 
-Front-end build of Figma node `845:1347` (Spark Pixel – Exploration).
-React 19 + Vite + Tailwind CSS v4 + shadcn/ui (Radix primitives, `components.json` included).
-
 ## Run
 
 ```bash
