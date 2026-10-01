@@ -278,7 +278,7 @@ export function Sidebar({ onCollapse, className }: { onCollapse?: () => void; cl
           className="group/acct flex w-[226px] shrink-0 items-center gap-2 rounded-xl border-[0.8px] border-border bg-card py-2 pl-2 pr-2.5 text-left outline-none drop-shadow-[0px_0px_4px_rgba(0,0,0,0.03)] transition-[box-shadow,transform] duration-200 hover:shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] active:scale-[0.99] focus-visible:ring-[3px] focus-visible:ring-ring/40"
         >
           <span className="relative flex size-8 shrink-0 items-center justify-center rounded-full border-[0.8px] border-[#d9d9d9] bg-[#f7f7f7] p-2">
-            <span className="whitespace-nowrap text-xs font-semibold leading-none tracking-[-0.12px] text-secondary-foreground">AH</span>
+            <span className="whitespace-nowrap text-xs font-semibold leading-none tracking-[-0.12px] text-secondary-foreground">LA</span>
             <span className="absolute bottom-[-1.7px] right-[-1.7px] size-[9px]">
               <span className="absolute inset-0 animate-ping rounded-full bg-success/40 [animation-duration:2.4s]" />
               <img src={asset("online-dot")} alt="" width={9} height={9} className="absolute inset-0 block size-full" />
